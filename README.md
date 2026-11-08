@@ -1,4 +1,4 @@
-# chat-skills ⚡
+# chat-skills
 
 A curated collection of modular, production-ready AI chat skills to enhance your workflow across ChatGPT, Claude, Antigravity, and other LLM assistants.
 
@@ -6,7 +6,7 @@ Each skill is formatted according to the standard `SKILL.md` specification and c
 
 ---
 
-## 📦 Included Skills
+## Included Skills
 
 | Skill | Description | Triggers / Use Cases |
 | :--- | :--- | :--- |
@@ -22,7 +22,7 @@ Each skill is formatted according to the standard `SKILL.md` specification and c
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Package Skills for Upload
 
@@ -62,7 +62,7 @@ To package a single skill:
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 chat-skills/
@@ -94,6 +94,6 @@ chat-skills/
 
 ---
 
-## 📄 License
+## License
 
 [MIT](LICENSE)
