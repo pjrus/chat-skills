@@ -1,0 +1,7 @@
+# Build / distribution output
+dist/
+*.zip
+
+# macOS metadata
+.DS_Store
+._*
