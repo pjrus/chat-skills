@@ -18,6 +18,7 @@ Each skill is formatted according to the standard `SKILL.md` specification and c
 | [`prompt-rewrite`](skills/prompt-rewrite/) | Refines, optimizes, and strengthens prompts for maximum execution quality while strictly preserving intent. | "improve this prompt", "optimize prompt", "make this prompt better" |
 | [`resume-latex`](skills/resume-latex/) | Builds clean, ATS-friendly resumes and CVs using Jake's Resume LaTeX template. | "make a resume", "convert to LaTeX CV", Overleaf / LaTeX resume building |
 | [`rw`](skills/rw/) | Seamless, zero-preamble text rewriting and sentence completion (Australian English, no em dashes). | `/rw`, "rewrite this", "finish this sentence", cut-off text completion |
+| [`worksheet-latex`](skills/worksheet-latex/) | Generates publication-ready academic worksheets, quizzes, exams, and problem sets with working space and answer key toggles. | "make a worksheet", "create a quiz / exam", math / science problem sets, LaTeX handout |
 
 ---
 
@@ -44,7 +45,8 @@ dist/
 ├── obsidian-markdown.zip
 ├── prompt-rewrite.zip
 ├── resume-latex.zip
-└── rw.zip
+├── rw.zip
+└── worksheet-latex.zip
 ```
 
 To package a single skill:
@@ -80,7 +82,9 @@ chat-skills/
 │   │   └── SKILL.md
 │   ├── resume-latex/
 │   │   └── SKILL.md
-│   └── rw/
+│   ├── rw/
+│   │   └── SKILL.md
+│   └── worksheet-latex/
 │       └── SKILL.md
 ├── package.sh
 ├── .gitignore
