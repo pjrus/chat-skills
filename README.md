@@ -20,6 +20,7 @@ Each skill is formatted according to the standard `SKILL.md` specification and c
 | [`pr-review`](skills/pr-review/) | Rigorous, pragmatic code review focusing on logic bugs, security, race conditions, and performance regressions without linter nitpicking. | "review this PR", "code review", "spot bugs in diff", PR feedback |
 | [`prompt-rewrite`](skills/prompt-rewrite/) | Refines, optimizes, and strengthens prompts for maximum execution quality while strictly preserving intent. | "improve this prompt", "optimize prompt", "make this prompt better" |
 | [`resume-latex`](skills/resume-latex/) | Builds clean, ATS-friendly resumes and CVs using Jake's Resume LaTeX template. | "make a resume", "convert to LaTeX CV", Overleaf / LaTeX resume building |
+| [`rfc-spec`](skills/rfc-spec/) | Drafts production-grade engineering RFCs, system design docs, and feature specifications with typed contracts and trade-off analyses. | "write an RFC", "tech spec", "system design doc", architectural proposal |
 | [`rw`](skills/rw/) | Seamless, zero-preamble text rewriting and sentence completion (Australian English, no em dashes). | `/rw`, "rewrite this", "finish this sentence", cut-off text completion |
 | [`worksheet-latex`](skills/worksheet-latex/) | Generates publication-ready academic worksheets, quizzes, exams, and problem sets with working space and answer key toggles. | "make a worksheet", "create a quiz / exam", math / science problem sets, LaTeX handout |
 
@@ -90,6 +91,8 @@ chat-skills/
 │   ├── prompt-rewrite/
 │   │   └── SKILL.md
 │   ├── resume-latex/
+│   │   └── SKILL.md
+│   ├── rfc-spec/
 │   │   └── SKILL.md
 │   ├── rw/
 │   │   └── SKILL.md
