@@ -15,6 +15,7 @@ Each skill is formatted according to the standard `SKILL.md` specification and c
 | [`email-rewrite`](skills/email-rewrite/) | Rewrites, tightens, softens, or restructures email drafts with minimal friction. | "rewrite this email", "make it more professional", "firmer / softer tone" |
 | [`linkedin-post`](skills/linkedin-post/) | Drafts authentic, high-impact LinkedIn posts without generic corporate fluff. | "write a linkedin post", project updates, tech insights |
 | [`linkedin-reply`](skills/linkedin-reply/) | Crafts high-engagement, thoughtful replies and comments for LinkedIn threads. | "reply to this post", "linkedin reply", comment drafting |
+| [`meetings-to-actions`](skills/meetings-to-actions/) | Distills raw meeting transcripts, audio dumps, and messy notes into executive summaries, key decisions, and an owner-assigned action item matrix. | "meeting notes", "action items from meeting", "summarise transcript", meeting minutes |
 | [`obsidian-markdown`](skills/obsidian-markdown/) | Produces Obsidian Flavored Markdown (OFM) with YAML properties, `[[wikilinks]]`, callouts, canvas, and LaTeX math. | Notes, summaries, lecture notes, cheat sheets, `.canvas` or `.base` workflows |
 | [`prompt-rewrite`](skills/prompt-rewrite/) | Refines, optimizes, and strengthens prompts for maximum execution quality while strictly preserving intent. | "improve this prompt", "optimize prompt", "make this prompt better" |
 | [`resume-latex`](skills/resume-latex/) | Builds clean, ATS-friendly resumes and CVs using Jake's Resume LaTeX template. | "make a resume", "convert to LaTeX CV", Overleaf / LaTeX resume building |
@@ -77,6 +78,8 @@ chat-skills/
 │   ├── linkedin-post/
 │   │   └── SKILL.md
 │   ├── linkedin-reply/
+│   │   └── SKILL.md
+│   ├── meetings-to-actions/
 │   │   └── SKILL.md
 │   ├── obsidian-markdown/
 │   │   ├── SKILL.md
