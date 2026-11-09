@@ -17,6 +17,7 @@ Each skill is formatted according to the standard `SKILL.md` specification and c
 | [`linkedin-reply`](skills/linkedin-reply/) | Crafts high-engagement, thoughtful replies and comments for LinkedIn threads. | "reply to this post", "linkedin reply", comment drafting |
 | [`meetings-to-actions`](skills/meetings-to-actions/) | Distills raw meeting transcripts, audio dumps, and messy notes into executive summaries, key decisions, and an owner-assigned action item matrix. | "meeting notes", "action items from meeting", "summarise transcript", meeting minutes |
 | [`obsidian-markdown`](skills/obsidian-markdown/) | Produces Obsidian Flavored Markdown (OFM) with YAML properties, `[[wikilinks]]`, callouts, canvas, and LaTeX math. | Notes, summaries, lecture notes, cheat sheets, `.canvas` or `.base` workflows |
+| [`pr-review`](skills/pr-review/) | Rigorous, pragmatic code review focusing on logic bugs, security, race conditions, and performance regressions without linter nitpicking. | "review this PR", "code review", "spot bugs in diff", PR feedback |
 | [`prompt-rewrite`](skills/prompt-rewrite/) | Refines, optimizes, and strengthens prompts for maximum execution quality while strictly preserving intent. | "improve this prompt", "optimize prompt", "make this prompt better" |
 | [`resume-latex`](skills/resume-latex/) | Builds clean, ATS-friendly resumes and CVs using Jake's Resume LaTeX template. | "make a resume", "convert to LaTeX CV", Overleaf / LaTeX resume building |
 | [`rw`](skills/rw/) | Seamless, zero-preamble text rewriting and sentence completion (Australian English, no em dashes). | `/rw`, "rewrite this", "finish this sentence", cut-off text completion |
@@ -84,6 +85,8 @@ chat-skills/
 │   ├── obsidian-markdown/
 │   │   ├── SKILL.md
 │   │   └── references/
+│   ├── pr-review/
+│   │   └── SKILL.md
 │   ├── prompt-rewrite/
 │   │   └── SKILL.md
 │   ├── resume-latex/
