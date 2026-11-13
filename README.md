@@ -11,6 +11,7 @@ Each skill is formatted according to the standard `SKILL.md` specification and c
 | Skill | Description | Triggers / Use Cases |
 | :--- | :--- | :--- |
 | [`anki-flashcard`](skills/anki-flashcard/) | Generates Anki-ready flashcards with MathJax support for direct paste into Anki 2.1+. | "make a flashcard", "turn this into an Anki card", study/memorization tasks |
+| [`bug-report`](skills/bug-report/) | Structures messy logs, stack traces, and symptoms into reproducible bug reports, root-cause analyses, and blameless postmortems. | "write a bug report", "triage this error", "incident postmortem", stack trace diagnosis |
 | [`cover-letter-tailor`](skills/cover-letter-tailor/) | Drafts authentic, high-impact, single-page cover letters mapped directly to candidate experience and job descriptions without AI fluff. | "write a cover letter", "tailor cover letter", "job application letter", motivation pitch |
 | [`email-rewrite`](skills/email-rewrite/) | Rewrites, tightens, softens, or restructures email drafts with minimal friction. | "rewrite this email", "make it more professional", "firmer / softer tone" |
 | [`linkedin-post`](skills/linkedin-post/) | Drafts authentic, high-impact LinkedIn posts without generic corporate fluff. | "write a linkedin post", project updates, tech insights |
@@ -72,6 +73,8 @@ To package a single skill:
 chat-skills/
 ├── skills/
 │   ├── anki-flashcard/
+│   │   └── SKILL.md
+│   ├── bug-report/
 │   │   └── SKILL.md
 │   ├── cover-letter-tailor/
 │   │   └── SKILL.md
